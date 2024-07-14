@@ -7,7 +7,7 @@ from google.api_core import retry
 warnings.filterwarnings('ignore')
 
 # Configure the API key for the Google Generative AI
-palm.configure(api_key='AIzaSyAriIMWwoijQfqDP25qflpSHuliIzq_RV8')
+palm.configure(api_key='your_google_api_key')
 
 # Get the model for text generation
 models = [m for m in palm.list_models() if 'generateText' in m.supported_generation_methods]
