@@ -1,0 +1,4 @@
+streamlit
+google-cloud-core
+google-api-core
+google-cloud-aiplatform
